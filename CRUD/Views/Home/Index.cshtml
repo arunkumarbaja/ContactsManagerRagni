@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Home - Contact Manager";
+}
+
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h1 class="display-4">📇 Contact Manager</h1>
+        <p class="lead text-muted">Easily manage your personal and professional contacts in one place.</p>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-md-4 mb-3">
+            <div class="card shadow-sm border-0 rounded-3">
+                <div class="card-body text-center">
+                    <h5 class="card-title">👥 View Contacts</h5>
+                    <p class="card-text">Browse your saved contacts, search, filter and manage them effortlessly.</p>
+                    <a href="@Url.Action("Index", "Employe")" class="btn btn-primary w-100">Go to Contacts</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <div class="card shadow-sm border-0 rounded-3">
+                <div class="card-body text-center">
+                    <h5 class="card-title">➕ Add Contact</h5>
+                    <p class="card-text">Quickly add a new contact to your collection with easy-to-fill forms.</p>
+                    <a href="@Url.Action("Create", "Employe")" class="btn btn-success w-100">Add New</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <div class="card shadow-sm border-0 rounded-3">
+                <div class="card-body text-center">
+                    <h5 class="card-title">⚙️ Manage Account</h5>
+                    <p class="card-text">Update your profile, manage roles and secure your account settings.</p>
+                    <a href="@Url.Action("Login", "Account")" class="btn btn-secondary w-100">Manage Account</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
