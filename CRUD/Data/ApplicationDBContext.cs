@@ -39,7 +39,8 @@ namespace CRUD.Data
                 new Employe { Id = 17, FirstName = "Logan", LastName = "Nelson", Email = "logan.nelson@example.com", Gender = Gender.Male, PhoneNumber = "7897897890", JobTitle = "Architect", DepartmentId = 7, HireDate = new DateTime(2014, 11, 11), Salary = 102000, IsActive = true },
                 new Employe { Id = 18, FirstName = "Chloe", LastName = "Carter", Email = "chloe.carter@example.com", Gender = Gender.Female, PhoneNumber = "8908908901", JobTitle = "Consultant", DepartmentId = 8, HireDate = new DateTime(2020, 05, 05), Salary = 85000, IsActive = true },
                 new Employe { Id = 19, FirstName = "Lucas", LastName = "Mitchell", Email = "lucas.mitchell@example.com", Gender = Gender.Male, PhoneNumber = "9019019012", JobTitle = "Trainer", DepartmentId = 9, HireDate = new DateTime(2023, 02, 02), Salary = 60000, IsActive = true },
-                new Employe { Id = 20, FirstName = "Ava", LastName = "Perez", Email = "ava.perez@example.com", Gender = Gender.Female, PhoneNumber = "0120120123", JobTitle = "Content Strategist", DepartmentId = 10, HireDate = new DateTime(2023, 04, 04), Salary = 67000, IsActive = true }
+                new Employe { Id = 20, FirstName = "Ava", LastName = "Perez", Email = "ava.perez@example.com", Gender = Gender.Female, PhoneNumber = "0120120123", JobTitle = "Content Strategist", DepartmentId = 10, HireDate = new DateTime(2023, 04, 04), Salary = 67000, IsActive = true },
+                new Employe { Id = 21, FirstName = "Ava", LastName = "Perez", Email = "ava.perez@example.com", Gender = Gender.Female, PhoneNumber = "0120120123", JobTitle = "Content Strategist", DepartmentId = 10, HireDate = new DateTime(2023, 04, 04), Salary = 67000, IsActive = true }
             );
             modelBuilder.Entity<LoginViewModel>().HasNoKey();
             modelBuilder.Entity<RegisterViewModel>().HasNoKey();
